@@ -16,15 +16,17 @@
       </div>
 
       <div class="main"> <!--Main area that will hold the new password -->
-          <textarea id="password" name="password" placeholder="New Password"></textarea>
-          <button id="copy" onclick="myFunction()">Copy</button><!--Copy text button-->
+          <!-- <textarea id="password" placeholder="New Password"></textarea> -->
+          <input type="text" name="" placeholder="Create Password" id="password" readonly>
+          <button id="copy" type='button' onmouseout="" onclick="copyPassword()">Copy</button><!--Copy text button-->
       </div>
 
       <div class="footer">
-          <button id="button" type="button">Create Password</button> <!--generate password button-->
+          <button id="button" type="button" onclick="generate()">Create Password</button> <!--generate password button-->
       </div>
-            
-    </body>
 
+      
+    </body>
     <script src="./script.js"></script> <!--Link to javaScript-->
+   
 </html>

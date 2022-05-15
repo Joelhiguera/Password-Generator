@@ -57,10 +57,11 @@ body {
     opacity: 0.5;
 }
 
-textarea {
+input {
     resize: none;
     font-size: 30px;
     text-align: center;
+    color: rgb(76, 76, 195);
     
 }
 
