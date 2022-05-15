@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(86, 83, 83)
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 6%;
+    font-size: 25px;
+    color:rgb(171, 239, 216);
+}
+
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#password {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    font-display: center;
+    border-radius: 15px;
+    
+
+}
+
+#button {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:rgb(171, 239, 216);
+}  
+   
+    
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+::placeholder {
+    color: rgb(76, 76, 195);
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+}
+
+textarea {
+    resize: none;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#copy {
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color:rgb(171, 239, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -2,23 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" class="width=device-width intial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"/><!--Viewport-->
+        <link rel="stylesheet" href="style.css"/> <!--Link to css-->
+        <link rel="icon" type="image/x-icon" href="mona-whisper copy.gif"><!--Favicon cuz theyre cute-->
+
         <title>Password generator</title>
     </head>
 
     <body>
     
-    <div class="header">
-        <h1>Welcome to the Password Generator</h1>
-    </div>
+      <div class="header"> <!--Header for the welcome text-->
+          <h1>Welcome to the Password Generator</h1>
+      </div>
 
-    <div class="main">
-        <textarea id="password" name="password" placeholder="New Password"></textarea>
-    </div>
+      <div class="main"> <!--Main area that will hold the new password -->
+          <textarea id="password" name="password" placeholder="New Password"></textarea>
+          <button id="copy" onclick="myFunction()">Copy</button><!--Copy text button-->
+      </div>
 
-    <div class="footer">
-        <button id="button" type="button">Create Password</button>
-    </div>
+      <div class="footer">
+          <button id="button" type="button">Create Password</button> <!--generate password button-->
+      </div>
             
     </body>
+
+    <script src="./script.js"></script> <!--Link to javaScript-->
 </html>
